@@ -4,3 +4,4 @@ b:back
 x:exit
 p:playstation
 f:[swedish ]fika
+w:walk
