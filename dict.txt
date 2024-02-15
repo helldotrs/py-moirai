@@ -1,3 +1,4 @@
+:blank
 e:enter
 l:lunch
 b:back

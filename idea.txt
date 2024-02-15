@@ -1,0 +1,31 @@
+
+when starting the software it prints
+moirai by hell.rs
+-h for help
+
+basic function:
+takes user input and save it in database.
+if in input when user hits enter it should just say blank (see dict.txt later).
+
+flags:
+-h --help displays help.txt
+-d --dict displays dict.txt
+-c --comment adds following text to the comment field for the last entry
+-se --show-events display last db entrys (old high up, new low down), displays 10 by default, otherwise how many specified, or "all" for every entry.
+-sd --show-date displays every entry for specified day (iso), can also be used with "yesterday" or "today"
+-r --remove removes entry with specifed id, can be used with "last", if no value it only returns "specify id or last"
+-p --plus shows that time it is in 24h in specified number of hours. 8 by defaulf
+
+if input is 3 or less character	it checks dict.txt, and if specified in dict it appends ":text". examples from dict.txt:
+:blank
+e:enter
+l:lunch
+b:back
+x:exit
+p:playstation
+f:[swedish ]fika
+w:walk
+m:meeting
+h:working from home
+s:sick
+o:day off
