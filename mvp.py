@@ -4,8 +4,9 @@ import mysql.connector
 
 my_db   = mysql.connector.connect(
     host    = "localhost",
-    user    = "admin",
-    user    = "admin"
+    user    = "root",
+    user    = "root"
+    db      = "moirai_db"
 )
 
 print(my_db)
