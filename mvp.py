@@ -11,3 +11,8 @@ my_db   = mysql.connector.connect(
 
 print(my_db)
 
+#used to ececute sql statements
+cursor = my_db.cursor()
+
+#execute sql
+#cursor.execute("SQL STATEMENT")
