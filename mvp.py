@@ -16,3 +16,5 @@ cursor = my_db.cursor()
 
 #execute sql
 #cursor.execute("SQL STATEMENT")
+
+user_input    = input("input:")
