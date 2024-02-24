@@ -7,7 +7,10 @@ my_db   = mysql.connector.connect(
     user    = "root",
     user    = "root"
     db      = "moirai_db"
+    table   = "main"
 )
+
+my_
 
 print(my_db)
 
