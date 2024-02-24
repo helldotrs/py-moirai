@@ -21,3 +21,5 @@ cursor = my_db.cursor()
 #cursor.execute("SQL STATEMENT")
 
 user_input    = input("input:")
+
+#save_to_db(id, time, date, input)
