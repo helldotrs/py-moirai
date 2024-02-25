@@ -3,12 +3,14 @@
 import mysql.connector
 
 my_db   = mysql.connector.connect(
-    host    = "localhost",
-    user    = "root",
-    user    = "root"
-    db      = "moirai_db"
-    table   = "main"
+    host        = "localhost",
+    user        = "root",
+    password    = "root",
+    database    = "moirai_db",
+
 )
+
+#    table       = "main"
 
 print(my_db)
 
