@@ -10,8 +10,6 @@ my_db   = mysql.connector.connect(
     table   = "main"
 )
 
-my_
-
 print(my_db)
 
 #used to ececute sql statements
@@ -22,4 +20,4 @@ cursor = my_db.cursor()
 
 user_input    = input("input:")
 
-#save_to_db(id, time, date, input)
+#save_to_db(id, time, date, user_input)
