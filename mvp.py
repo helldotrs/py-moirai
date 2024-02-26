@@ -22,4 +22,7 @@ cursor = my_db.cursor()
 
 user_input    = input("input:")
 
+def save_to_db(id, time, date, user_input):
+    pass
+
 #save_to_db(id, time, date, user_input)
