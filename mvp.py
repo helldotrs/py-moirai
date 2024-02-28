@@ -20,9 +20,10 @@ cursor = my_db.cursor()
 #execute sql
 #cursor.execute("SQL STATEMENT")
 
-user_input    = input("input:")
+user_input    = input("input: ")
+save_to_db(your_id, your_time, your_date, user_input)
 
 def save_to_db(id, time, date, user_input):
     pass
 
-#save_to_db(id, time, date, user_input)
+
